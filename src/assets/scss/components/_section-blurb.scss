@@ -1,0 +1,26 @@
+// section blurb
+.section-blurb {
+  background: $light-gray;
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 30px 0px;
+  }
+}
+
+// content font sizes at different breakpoints
+@media screen and (min-width: 40em) {
+  .section-blurb{
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .section-blurb {
+    p {
+      font-size: 2rem;
+    }
+  }
+}

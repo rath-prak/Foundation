@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+@import './components/main-navigation';
+@import './components/main-hero';
+@import './components/section-blurb';
+@import './components/feature-article-section';
+@import './components/highlights-section';
+
+
+// full width sections
+.full-width-section {
+  width: 100%;
+}
+
+
+
+// top bar navigation and styling
+.top-bar {
+  margin-top: 20px;
+}
+
+.top-bar, .top-bar ul {
+  background-color: transparent;
+}
+
+// and contact and social media icons
+.social-text {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 10px;
+  line-height: 39px;
+  font-size: 14px;
+}
+
+
+.social-icon {
+  a {
+    color: #fff;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+}
+
+.social-icon {
+  a:hover {
+    color: $te-awe-red;
+    transition: color 0.3s;
+  }
+}
+
+.social-text:first-child {
+  color: $te-awe-red !important;
+}
+
+// buttons
+.button-rounded {
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: $te-awe-red;
+}
+
+.button-rounded:hover {
+  background-color: darken($te-awe-red, 5%);
+  transition: background-color 0.3s;
+}
+
+// footer
+.copyright-footer {
+  p {
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 1%;
+}
