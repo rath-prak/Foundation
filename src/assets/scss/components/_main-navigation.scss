@@ -1,0 +1,14 @@
+//top naigation bar
+.navigation-bar {
+  height: rem-calc(90);
+  .nav-logo {
+    img {
+      width: 110px;
+    }
+  }
+  .menu {
+    a {
+      font-size: rem-calc(18);
+    }
+  }
+}
