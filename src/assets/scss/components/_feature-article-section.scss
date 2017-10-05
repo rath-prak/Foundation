@@ -3,4 +3,19 @@
   h3 {
     margin-top: rem-calc(20);
   }
+  .feature-article-image {
+    position: relative;
+  }
+  .upcoming, .event {
+    padding: rem-calc(10);
+    width: rem-calc(110);
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .upcoming {
+    background-color: $te_awe_red;
+  }
 }

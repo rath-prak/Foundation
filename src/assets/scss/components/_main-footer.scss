@@ -1,6 +1,19 @@
 .main-footer {
-  background: #000;
-  p {
-    color: #fff;
+  background: $black;
+  padding: rem-calc(30) 0;
+  img {
+    margin-bottom: rem-calc(30);
   }
+  p, a {
+    color: #fff;
+    font-size: rem-calc(15);
+  }
+  .maori-footer-pattern {
+    width: rem-calc(230);
+  }
+}
+
+//bottom footer bar
+.main-footer-bottom {
+  background: lighten($black, 10%)
 }
