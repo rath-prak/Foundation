@@ -1,5 +1,9 @@
 .subscribe-section {
+  padding: rem-calc(50) 0px;
   background: $te-awe-red;
+  h1, p {
+    color: $white;
+  }
 }
 
 // button

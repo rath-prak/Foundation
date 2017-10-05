@@ -30,6 +30,26 @@ h1, h2, h3, h4, h5, h6 {
   color: $dark-gray;
 }
 
+// change opacity on images
+.image-fade:hover {
+    opacity: 0.9;
+}
+
+
+// Horizontal rulers
+.horizontal-ruler {
+  background: #000;
+  margin-top: rem-calc(60);
+  margin-bottom: rem-calc(15);
+}
+
+// Horizontal rulers
+.horizontal-ruler-thin {
+  background: #000;
+  margin-top: rem-calc(15);
+  margin-bottom: rem-calc(40);
+  height: 1px;
+}
 
 // top bar navigation and styling
 .top-bar {

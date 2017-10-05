@@ -1,3 +1,13 @@
 .highlights-section {
   margin-bottom: rem-calc(60);
+  hr:first-child {
+    margin-bottom: rem-calc(60)
+  }
+}
+
+
+@media screen and (min-width: 64em) {
+  .feature-light-article {
+    padding-right: rem-calc(30)
+  }
 }
