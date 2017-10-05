@@ -6,9 +6,28 @@
       width: 110px;
     }
   }
+
   .menu {
     a {
-      font-size: rem-calc(18);
+      font-weight: bold;
+    }
+    a:hover {
+      color: $black;
+    }
+  }
+
+  .menu-pipe {
+    color: lighten($black, 70%);
+    transform: translateY(5px);
+  }
+
+  .underline-menu:hover {
+    border-bottom: 2px solid $te_awe_red;
+  }
+
+  .search-icon:hover {
+    a {
+      color: $te_awe_red;
     }
   }
 }
