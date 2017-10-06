@@ -1,26 +1,30 @@
 // section blurb
 .section-blurb {
-  background: $light-gray;
-  p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 30px 0px;
+  padding: rem-calc(30) 0;
+  background: $te_awe_red;
+  h3, h5, p {
+    color: $white;
+  }
+}
+
+.section-blurb {
+  .join-button {
+      margin: rem-calc(15) 0px 0px 0px;
+      background: darken($te_awe_red, 20%);
+      border-radius: rem-calc(2);
+      a {
+        font-weight: bold;
+      }
   }
 }
 
 // content font sizes at different breakpoints
 @media screen and (min-width: 40em) {
-  .section-blurb{
-    p {
-      font-size: 1.4rem;
-    }
-  }
+
+
 }
 
 @media screen and (min-width: 64em) {
-  .section-blurb {
-    p {
-      font-size: 2rem;
-    }
-  }
+
+
 }

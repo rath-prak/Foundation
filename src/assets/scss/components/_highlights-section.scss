@@ -3,6 +3,13 @@
   h3 {
     margin-top: rem-calc(15);
   }
+  .kowhai-icon {
+    img {
+      width: rem-calc(40);
+      transform: translateY(-5px);
+    }
+    padding-right: rem-calc(10);
+  }
 }
 
 

@@ -6,14 +6,40 @@
   }
   p, a {
     color: #fff;
-    font-size: rem-calc(15);
   }
-  .maori-footer-pattern {
-    width: rem-calc(230);
+  li:first-child {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: rem-calc(10);
   }
-}
-
-//bottom footer bar
-.main-footer-bottom {
-  background: lighten($black, 10%)
+  .footer-copy-right {
+    font-size: rem-calc(14);
+  }
+  .footer-menu {
+    a:hover {
+      color: $te_awe_red;
+    }
+  }
+  .footer-button {
+    background: darken($te_awe_red, 20%);
+    border-radius: rem-calc(2);
+  }
+  .social-icon {
+    a {
+      color: #fff;
+      padding-right: 0px;
+      padding-left: 10px;
+    }
+  }
+  .social-icon {
+    a:hover {
+      color: $te-awe-red;
+      transition: color 0.3s;
+    }
+  }
+  .menu:first-child {
+    padding-left: 0px;
+  }
 }
