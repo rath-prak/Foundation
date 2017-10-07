@@ -1,0 +1,13 @@
+.contact-background {
+  height: rem-calc(250);
+  background: $te_awe_red;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact-form {
+  margin: rem-calc(80) 0;
+  padding: rem-calc(50);
+  background: $light-gray;
+  border-radius: rem-calc(4);
+}
