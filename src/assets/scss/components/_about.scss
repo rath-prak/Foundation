@@ -1,0 +1,11 @@
+.management-committee {
+  margin: rem-calc(60) 0;
+  .committee-member-item {
+    span {
+      margin-right: rem-calc(15);
+    }
+    i {
+      margin-right: rem-calc(4);
+    }
+  }
+}
