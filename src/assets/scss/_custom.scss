@@ -17,6 +17,9 @@
 //contact page
 @import './components/contact';
 
+// Article Items
+@import './components/article-item';
+
 
 // Custom Typography
 h1, h2, h3, h4, h5, h6 {
@@ -38,12 +41,16 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.9;
 }
 
-
 // Horizontal rulers
 .horizontal-ruler {
   background: #000;
   margin-top: rem-calc(30);
   margin-bottom: rem-calc(15);
+}
+.horizontal-ruler-short {
+  background: #000;
+  margin-top: rem-calc(10);
+  margin-bottom: rem-calc(10);
 }
 
 // Horizontal rulers
@@ -54,11 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
 }
 
-// top bar navigation and styling
-.top-bar {
-  margin-top: 20px;
-}
-
-.top-bar, .top-bar ul {
-  background-color: transparent;
+//links that are inside body
+.body-link {
+  color: $te_awe-red;
 }
