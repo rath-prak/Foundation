@@ -1,0 +1,23 @@
+.membership-information {
+  min-height: 100vh;
+  margin: rem-calc(30) 0;
+  .membership-information-body {
+    p {
+      font-size: rem-calc(18);
+    }
+  }
+  .membership-pricing-body {
+    padding: rem-calc(15);
+    background: lighten($te_awe-red, 40%);
+  }
+  .membership-join {
+    .application-form {
+      padding: rem-calc(15);
+      background: $te_awe-red;
+      color: $white;
+      border-radius: rem-calc(3);
+      font-weight: bold;
+    }
+  }
+
+}
