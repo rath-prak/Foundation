@@ -12,29 +12,4 @@
   .article-item-body {
     margin-bottom: rem-calc(120);
   }
-
-  .article-item-image {
-    margin: rem-calc(30) 0 rem-calc(40);
-  }
-
-  .image-caption {
-    margin-top: rem-calc(8);
-    font-size: rem-calc(14);
-    color: $dark-gray;
-  }
-
-}
-
-// article-item side section
-.article-item-side-section {
-  .social-share {
-    color: $dark-gray;
-    margin-bottom: rem-calc(5);
-  }
-  .menu {
-    a {
-      width: rem-calc(50);
-      padding: 0 rem-calc(10) rem-calc(20) 0;
-    }
-  }
 }

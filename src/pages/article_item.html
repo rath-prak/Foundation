@@ -17,10 +17,7 @@
     <div class="cell large-8 article-item">
       <h2>Te Awe Pasifika Business Start Up</h2>
       <p class="post-date"><strong>Posted on 23 October 2015</strong></p>
-      <div class="article-item-image">
-        <img src="../assets/img/test-700x400.jpg" alt="">
-        <p class="image-caption">Te Awe / Pasifika joint function meet and greet.</p>
-      </div>
+      {{> article_image}}
       <div class="article-item-body">
         <p class="lead">Held on Thursday the 15th October, this was the second Te Awe / Pasifika joint function to be run. Like the first event, this was just as successful and enjoyable.
         </p>
@@ -47,15 +44,9 @@
     </div>
 
     <aside class="cell large-4 article-item-side-section">
-      <div class="article-item-social">
-        <p class="social-share"><strong>Share</strong></p>
-        <ul class="menu">
-          <li><a href="#"><img src="../assets/img/social/facebook.svg" alt="Facebook share icon"></a></li>
-          <li><a href="#"><img src="../assets/img/social/twitter.svg" alt="Twitter share icon"></a></li>
-          <li><a href="#"><img src="../assets/img/social/linkedin.svg" alt="LinkedIn share icon"></a></li>
-        </ul>
-      </div>
-      <div class="horizontal-ruler-short" style="height: 3px"></div>
+      <!-- share on social media widget -->
+      {{> social_share}}
+
       <div class="article-item-latest-news">
         <h3>Latest News</h3>
         <hr>

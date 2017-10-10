@@ -9,3 +9,44 @@
     }
   }
 }
+
+.committee-member-contact {
+  a {
+    color: $te_awe-red;
+  }
+}
+
+.committee-member-header {
+  margin-bottom: rem-calc(30);
+}
+
+// ..........
+
+.committee-member-image-row {
+  margin-bottom: rem-calc(30);
+}
+
+.committee-member-image {
+  h6 {
+    margin-top: rem-calc(10);
+  }
+}
+
+
+.interesting-links {
+
+    li {
+      background: $light-gray;
+      // margin-bottom: rem-calc(2);
+      border-bottom: rem-calc(2) solid $white;
+      text-align: center;
+      padding: rem-calc(10);
+    }
+    li:hover {
+      background: $dark-gray;
+      a {
+        color: $white;
+      }
+    }
+
+}

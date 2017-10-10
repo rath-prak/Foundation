@@ -71,3 +71,27 @@ h1, h2, h3, h4, h5, h6 {
 .body-link {
   color: $te_awe-red;
 }
+
+// Social share widget
+.social-share {
+  p {
+    color: $dark-gray;
+    margin-bottom: rem-calc(5);
+  }
+  .menu {
+    a {
+      width: rem-calc(50);
+      padding: 0 rem-calc(10) rem-calc(20) 0;
+    }
+  }
+}
+
+//article image widget
+.article-image {
+  margin: rem-calc(30) 0 rem-calc(40);
+  p {
+    margin-top: rem-calc(8);
+    font-size: rem-calc(14);
+    color: $dark-gray;
+  }
+}

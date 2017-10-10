@@ -6,7 +6,7 @@
 
 .membership-information {
   min-height: 100vh;
-  // margin: rem-calc(30) 0;
+  margin: rem-calc(30) 0;
 
   .membership-information-body {
     p {
@@ -27,27 +27,5 @@
       border-radius: rem-calc(3);
       font-weight: bold;
     }
-  }
-}
-
-.committee-member-contact {
-  a {
-    color: $te_awe-red;
-  }
-}
-
-.committee-member-header {
-  margin-bottom: rem-calc(30);
-}
-
-// ..........
-
-.committee-member-image-row {
-  margin-bottom: rem-calc(30);
-}
-
-.committee-member-image {
-  h6 {
-    margin-top: rem-calc(10);
   }
 }
