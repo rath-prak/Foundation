@@ -8,5 +8,10 @@ import Foundation from 'foundation-sites';
 // the line below
 //import './lib/foundation-explicit-pieces';
 
+$(document).ready(function() {
+  $(".toggle").on("click", function() {
+    $(".toggle").parent().toggleClass('active');
+  });
+});
 
 $(document).foundation();
