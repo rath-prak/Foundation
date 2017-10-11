@@ -9,17 +9,24 @@
   }
 
   .membership-pricing-body {
-    padding: rem-calc(15);
-    background: lighten($te_awe-red, 40%);
+    p {
+      padding: rem-calc(15);
+      background: $light-gray;
+      margin-bottom: rem-calc(5);
+    }
   }
 
   .membership-join {
     .application-form {
-      padding: rem-calc(15);
-      background: $te_awe-red;
-      color: $white;
-      border-radius: rem-calc(3);
-      font-weight: bold;
+      margin-top: rem-calc(30);
+      a {
+        padding: rem-calc(15);
+        background: $te_awe-red;
+        color: $white;
+        border-radius: rem-calc(3);
+        font-weight: bold;
+      }
     }
+    margin: rem-calc(40) 0;
   }
 }
