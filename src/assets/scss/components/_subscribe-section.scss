@@ -1,13 +1,24 @@
 .subscribe-section {
-  padding: rem-calc(50) 0px;
+  padding: rem-calc(20) 0px;
   background: $te-awe-red;
-  h1, p {
+  h2, p {
     color: $white;
+  }
+  .subscribe-form {
+    input {
+      border: none;
+      border-radius: rem-calc(2);
+    }
   }
 }
 
 // button
 .subscribe-btn {
-  background: darken($te-awe-red, 20%);
+  background: darken($te-awe-red, 10%);
   width: rem-calc(180);
+  border-radius: rem-calc(2);
+}
+
+.subscribe-btn:hover {
+  background: darken($te-awe-red, 20%);
 }
