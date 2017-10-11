@@ -4,3 +4,17 @@
     margin-top: rem-calc(20);
   }
 }
+
+.feature-article-image {
+  overflow: hidden;
+  position: relative;
+  #image-red-bar {
+    position: absolute;
+    bottom: 0;
+    height: rem-calc(8);
+    width: 100%;
+    transform: translateX(-100%);
+    transition: transform 1s;
+    background: $te_awe_red;
+  }
+}

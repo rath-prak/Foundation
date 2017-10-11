@@ -1,3 +1,9 @@
+.about-section {
+  p {
+    font-size: rem-calc(18);
+  }
+}
+
 .management-committee {
   margin: rem-calc(60) 0;
   .committee-member-item {
@@ -20,18 +26,6 @@
   margin-bottom: rem-calc(30);
 }
 
-// ..........
-
-.committee-member-image-row {
-  margin-bottom: rem-calc(30);
-}
-
-.committee-member-image {
-  h6 {
-    margin-top: rem-calc(10);
-  }
-}
-
 
 .interesting-links {
 
@@ -48,5 +42,14 @@
         color: $white;
       }
     }
+}
 
+// according section for committee members
+.committee-member-item {
+  margin-bottom: rem-calc(50);
+  .accordion-title {
+    font-size: rem-calc(16);
+    background: lighten($light-gray, 5%);
+    color: $dark-gray;
+  }
 }
