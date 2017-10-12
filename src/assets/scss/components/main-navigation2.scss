@@ -1,0 +1,66 @@
+// top section
+.top-navigation-bar {
+  display: flex;
+  justify-content: space-between;
+
+  .top-nav-left {
+    // background: red;
+    img {
+      padding: rem-calc(20);
+    }
+  }
+  .top-nav-right {
+    // background: green;
+    display: flex;
+    align-items: center;
+
+    input, button, ul {
+      margin-bottom: 0;
+    }
+    .top-nav-items {
+      display: flex;
+      align-items: center;
+      span {
+        margin-right: rem-calc(30);
+      }
+      a:hover {
+        color: $te_awe-red;
+      }
+    }
+  }
+}
+
+// bottom section
+.bottom-navigation-bar-container {
+  background: $te_awe-red;
+  // height: rem-calc(60);
+  .nav-botttom-bar {
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  .bottom-nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: rem-calc(60);
+    li {
+      margin-left: rem-calc(30);
+    }
+    a {
+      font-weight: bold;
+      font-size: rem-calc(18);
+      color: $white;
+    }
+  }
+  .maori-pattern-banner {
+    position: relative;
+    img {
+      height: rem-calc(60);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+}

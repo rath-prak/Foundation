@@ -14,3 +14,9 @@
   background: $light-gray;
   border-radius: rem-calc(4);
 }
+
+.contact-us-form-actions {
+  input {
+    width: rem-calc(120);
+  }
+}

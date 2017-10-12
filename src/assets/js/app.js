@@ -14,6 +14,10 @@ $(document).ready(function() {
     $(".toggle").parent().toggleClass('active');
   });
 
+  $(".toggle2").on("click", function() {
+    $(".toggle2").parent().toggleClass('active');
+  });
+
   //animated red bar in feature images
   // $(function() {
   //   $('.feature-article-image').hover(function() {

@@ -6,6 +6,7 @@
 
 // Home Page
 @import './components/main-navigation';
+@import './components/main-navigation2';
 @import './components/main-hero';
 @import './components/section-blurb';
 @import './components/feature-article-section';
@@ -94,4 +95,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: rem-calc(14);
     color: $dark-gray;
   }
+}
+
+// Buttons
+.form-button {
+  padding: rem-calc(15);
+  background: $te_awe-red;
+  color: $white;
+  border-radius: rem-calc(3);
+  font-weight: bold;
 }
