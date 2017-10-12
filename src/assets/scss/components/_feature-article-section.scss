@@ -11,10 +11,9 @@
   #image-red-bar {
     position: absolute;
     bottom: 0;
-    height: rem-calc(8);
+    height: rem-calc(10);
     width: 100%;
-    transform: translateX(-100%);
-    transition: transform 1s;
     background: $te_awe_red;
+    z-index: 10;
   }
 }

@@ -27,6 +27,9 @@
 // About Section
 @import './components/about';
 
+// Full width image
+@import './components/full-width-image';
+
 
 // Custom Typography
 h1, h2, h3, h4, h5, h6 {
@@ -104,4 +107,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $white;
   border-radius: rem-calc(3);
   font-weight: bold;
+}
+
+// block quote
+.block-quote {
+  font-size: rem-calc(24)!important;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 2.1rem;
+  padding-left: rem-calc(20);
+  border-left: 4px solid $te_awe-red;
 }
