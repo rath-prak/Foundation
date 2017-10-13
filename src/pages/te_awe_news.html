@@ -1,0 +1,39 @@
+{{> full_width_image}}
+
+<!-- breadcrumbs -->
+  <div class="grid-container">
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="#">Home</a></li>
+        <li>
+          <span class="show-for-sr">Current: </span> Te Awe news
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+<div class="grid-container highlights-section">
+  <div class="horizontal-ruler" style="height: 3px"></div>
+  <div class="grid-x grid-margin-x">
+    <div class="cell larger-12">
+      <h2><span class="kowhai-icon"><img src="../assets/img/kowhai_black.svg" alt=""></span>Te Awe's latest news, articles and publications.</h2>
+      <div class="horizontal-ruler-thin"></div>
+    </div>
+      {{> te_awe_news_all}}
+      {{> te_awe_news_all}}
+      {{> te_awe_news_all}}
+  </div>
+  <div class="pagination-footer" style="margin-top: 60px">
+    <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+      <li class="pagination-previous disabled">Previous</li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#" aria-label="Page 2">2</a></li>
+      <li><a href="#" aria-label="Page 3">3</a></li>
+      <li><a href="#" aria-label="Page 4">4</a></li>
+      <li class="ellipsis"></li>
+      <li><a href="#" aria-label="Page 12">12</a></li>
+      <li><a href="#" aria-label="Page 13">13</a></li>
+      <li class="pagination-next"><a href="#" aria-label="Next page">Next</a></li>
+    </ul>
+  </div>
+</div> <!-- end of main grid containter -->

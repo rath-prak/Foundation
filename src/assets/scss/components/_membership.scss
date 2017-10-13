@@ -19,6 +19,9 @@
   .membership-join {
     .application-form {
       margin-top: rem-calc(30);
+      a:hover {
+        color: $white;
+      }
     }
     margin: rem-calc(40) 0;
   }
