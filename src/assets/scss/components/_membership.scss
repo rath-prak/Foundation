@@ -8,11 +8,35 @@
     margin-bottom: rem-calc(10);
   }
 
-  .membership-pricing-body {
-    p {
-      padding: rem-calc(15);
-      background: $light-gray;
-      margin-bottom: rem-calc(5);
+  .membership-pricing {
+    margin-top: rem-calc(30);
+    li, h5 {
+      color: $white;
+    }
+    h4 {
+      margin-bottom: rem-calc(30);
+    }
+    li {
+      font-size: rem-calc(16);
+    }
+
+    .price-block {
+      padding: rem-calc(20);
+      margin-bottom: rem-calc(30);
+      border-radius: rem-calc(3);
+    }
+    .partnership {
+      background: $te_awe_red;
+
+    }
+    .corporate {
+      background: lighten($te_awe_red, 10%);
+    }
+    .individual {
+      background: $dark-gray;
+    }
+    .guest {
+        background: lighten($te_awe_red, 20%);
     }
   }
 
