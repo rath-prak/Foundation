@@ -33,7 +33,7 @@
 // bottom section
 .bottom-navigation-bar-container {
   background: $te_awe-red;
-  // height: rem-calc(60);
+
   .nav-botttom-bar {
     ul {
       margin-bottom: 0;
@@ -45,7 +45,14 @@
     align-items: center;
     height: rem-calc(60);
     li {
-      margin-left: rem-calc(30);
+      // margin-left: rem-calc(30);
+      z-index: 100;
+      height: rem-calc(60);
+      line-height: rem-calc(60);
+      padding: 0 rem-calc(15);
+    }
+    li:hover {
+      background: darken($te_awe-red, 10%);
     }
     a {
       font-weight: bold;

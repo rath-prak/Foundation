@@ -3,7 +3,25 @@
   padding: rem-calc(30) 0;
   // background: $te_awe_red;
   background: $black;
-  h3, h5, p {
+  h1, h2, h3, h4, h5, p {
     color: $white;
+    text-align: center;
+  }
+  p {
+    font-size: rem-calc(18);
+    font-weight: bold;
+    text-align: center;
+  }
+  .first-box {
+    background: #e55e5e;
+    padding: rem-calc(20);
+  }
+  .second-box {
+    background: #f9886c;
+    padding: rem-calc(20);
+  }
+  .third-box {
+    background: #fbb03b;
+    padding: rem-calc(20);
   }
 }
