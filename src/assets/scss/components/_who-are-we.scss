@@ -44,12 +44,6 @@
     }
 }
 
-// according section for committee members
-.committee-member-item {
-  margin-bottom: rem-calc(50);
-  .accordion-title {
-    font-size: rem-calc(16);
-    background: lighten($light-gray, 5%);
-    color: $dark-gray;
-  }
+.application-form {
+    width: rem-calc(300) !important;
 }
