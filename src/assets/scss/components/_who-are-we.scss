@@ -5,7 +5,7 @@
 }
 
 .management-committee {
-  margin: rem-calc(60) 0;
+  margin: rem-calc(30) 0 rem-calc(60) 0;
   .committee-member-item {
     span {
       margin-right: rem-calc(15);
@@ -23,7 +23,7 @@
 }
 
 .committee-member-header {
-  margin-bottom: rem-calc(30);
+  margin: rem-calc(30) 0;
 }
 
 
@@ -45,5 +45,5 @@
 }
 
 .application-form {
-    width: rem-calc(300) !important;
+    // width: rem-calc(300) !important;
 }

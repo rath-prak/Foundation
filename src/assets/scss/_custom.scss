@@ -8,7 +8,7 @@
 @import './components/main-navigation';
 @import './components/main-navigation2';
 @import './components/main-hero';
-@import './components/section-blurb';
+@import './components/kaupapa';
 @import './components/feature-article-section';
 @import './components/highlights-section';
 @import './components/logo-gallery';
@@ -101,12 +101,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Buttons
-.form-button {
-  padding: rem-calc(15);
-  background: $te_awe-red;
-  color: $white;
-  border-radius: rem-calc(3);
+.subscribe-btn {
+  background: darken($te-awe-red, 10%);
+  width: rem-calc(180);
+  border-radius: rem-calc(2);
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subscribe-btn:hover {
+  background: darken($te-awe-red, 20%);
+}
+
+.registration-btn {
+  background: $te-awe-red;
+  width: rem-calc(180);
+  border-radius: rem-calc(2);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.registeration-btn:hover {
+    background: darken($te-awe-red, 10%);
 }
 
 // block quote

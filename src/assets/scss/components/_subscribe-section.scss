@@ -11,14 +11,3 @@
     }
   }
 }
-
-// button
-.subscribe-btn {
-  background: darken($te-awe-red, 10%);
-  width: rem-calc(180);
-  border-radius: rem-calc(2);
-}
-
-.subscribe-btn:hover {
-  background: darken($te-awe-red, 20%);
-}
