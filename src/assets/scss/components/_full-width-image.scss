@@ -1,8 +1,14 @@
 .full-width-image {
   width: 100%;
-  height: rem-calc(300);
+  height: rem-calc(150);
   overflow: hidden;
   img {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: rem-calc(660)) {
+  .full-width-image {
+    height: rem-calc(300);
   }
 }
