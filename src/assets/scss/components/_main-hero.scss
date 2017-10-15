@@ -2,7 +2,7 @@
 .main-hero-container {
   width: 100%;
   min-height: 600px;
-  background: url('../../assets/img/Te-Awe-splash-background.jpg') no-repeat center center;
+  background: url('../../assets/img/temp_fern_big.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -21,6 +21,9 @@
     font-size: 2.5rem;
     line-height: 3rem;
   }
+  h2 {
+    font-size: rem-calc(50);
+  }
   h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -28,7 +31,7 @@
   .maori-pattern {
     width: 100%;
     img {
-      width: 40%;
+      width: 30%;
     }
   }
   p {
@@ -41,7 +44,7 @@
 @media screen and (min-width: 40em) {
   .hero-content {
     h1 {
-      font-size: 2.5rem;
+      font-size: 6rem;
       line-height: 4rem;
     }
   }
@@ -50,7 +53,7 @@
 @media screen and (min-width: 64em) {
   .hero-content {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 4rem;
     }
   }

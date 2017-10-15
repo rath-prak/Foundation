@@ -1,9 +1,7 @@
 // section blurb
 .kaupapa {
   padding: rem-calc(30) 0;
-  // background: lighten($light-gray, 2%);
-  // transform: translateY(-150px);
-  margin-top: -150px;
+  margin-top: rem-calc(-78);
   h1 {
     text-align: center;
   }
@@ -14,8 +12,14 @@
 
   p {
     font-size: rem-calc(18);
-    font-weight: bold;
+    // font-weight: bold;
     text-align: center;
+  }
+  .kaupapa-heading {
+    // background: darken($te_awe_red, 20%);
+    background: rgba(125,29,27, 0.8);
+    color: $white;
+    // border-radius: rem-calc(3) rem-calc(3) 0 0;
   }
   .kaupapa-into {
     margin-top: rem-calc(30);
@@ -24,18 +28,23 @@
     }
   }
   .first-box {
-    background: $te_awe_red;
+    background: darken($te_awe_red, 10%);
+    // background: $te_awe_red;
     padding: rem-calc(20);
+    // border-radius: 0 0 0 rem-calc(3);
     color: $white;
   }
   .second-box {
     background: darken($te_awe_red, 10%);
+    // background: $te_awe_red;
     padding: rem-calc(20);
     color: $white;
   }
   .third-box {
-    background: $te_awe_red;
+    background: darken($te_awe_red, 10%);
+    // background: $te_awe_red;
     padding: rem-calc(20);
+    // border-radius: 0 0 rem-calc(3) 0;
     color: $white;
   }
 }
