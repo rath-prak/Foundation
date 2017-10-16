@@ -1,0 +1,28 @@
+.registration {
+  min-height: 100vh;
+  margin: rem-calc(80) 0;
+  .registration-form {
+    input {
+      border-radius: $border-radius;
+    }
+    label {
+      font-weight: bold;
+    }
+    span {
+      color: $te_awe_red;
+      font-size: rem-calc(18);
+      font-weight: bold;
+    }
+  }
+  .registration-payment {
+    background: lighten($light-gray, 4%);
+    padding: rem-calc(15);
+    border-radius: $border-radius;
+    p {
+      margin-bottom: rem-calc(5);
+    }
+    p:nth-of-type(2) {
+      font-size: rem-calc(20);
+    }
+  }
+}
