@@ -1,0 +1,40 @@
+.calendar {
+  .calendar-heading {
+    color: $white;
+  }
+
+#wp-calendar {
+  caption {
+    color: $white;
+    background: $te_awe_red;
+  }
+  tbody {
+    td {
+      padding: rem-calc(5);
+      text-align: center;
+    }
+    td:hover {
+      background: $dark-gray;
+      transition: background 0.5s;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+  .day {
+    color:$te_awe_red;
+  }
+  .day:hover {
+    color: $white;
+  }
+
+}
+
+  tfoot {
+    td {
+      background: $dark-gray;
+    }
+    #next {
+      text-align: right;
+    }
+  }
+}
