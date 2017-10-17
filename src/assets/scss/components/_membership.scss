@@ -1,6 +1,6 @@
 .membership-information {
+  margin: rem-calc(40) 0 rem-calc(60) 0;
   min-height: 100vh;
-  margin: rem-calc(30) 0;
   p, li {
     font-size: rem-calc(18);
   }
@@ -18,35 +18,28 @@
     }
     li {
       font-size: rem-calc(16);
+      font-weight: bold;
     }
 
     .price-block {
-      padding: rem-calc(20);
-      margin-bottom: rem-calc(30);
-      border-radius: rem-calc(3);
+      padding: rem-calc(40);
     }
     .partnership {
-      background: $te_awe_red;
+      background: darken($te_awe_red, 10%);
 
     }
     .corporate {
-      background: lighten($te_awe_red, 10%);
+      background: $te_awe_red;
     }
     .individual {
-      background: $dark-gray;
+      background: darken($dark-gray, 10%);
     }
     .guest {
-        background: lighten($te_awe_red, 20%);
+        background: lighten($te_awe_red, 10%);
     }
   }
 
-  .membership-join {
-    .application-form {
+  .application-form {
       margin-top: rem-calc(30);
-      a:hover {
-        color: $white;
-      }
-    }
-    margin: rem-calc(40) 0;
   }
 }
