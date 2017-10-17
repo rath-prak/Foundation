@@ -1,10 +1,11 @@
-.registration {
+.ycp-interest {
+  // min-height: 100vh;
   margin: rem-calc(40) 0 rem-calc(60) 0;
-  .registration-form {
+  .ycp-interest-form {
     input {
       border-radius: $border-radius;
     }
-    label {
+    label, legend {
       font-weight: bold;
     }
     span {

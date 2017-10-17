@@ -36,6 +36,12 @@
 // Registration
 @import './components/registration';
 
+// Younge Champions
+@import './components/young-champions';
+
+// Younge Champions
+@import './components/registration-interest';
+
 
 // Custom Typography
 h1, h2, h3, h4, h5, h6 {
@@ -121,7 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .registration-btn {
   background: $te-awe-red;
-  width: rem-calc(180);
+  // width: rem-calc(180);
+  padding: rem-calc(15) rem-calc(30);
   border-radius: rem-calc(2);
   font-weight: bold;
   text-transform: uppercase;
@@ -129,6 +136,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .registeration-btn:hover {
     background: darken($te-awe-red, 10%);
+}
+
+//typography
+.main-heading {
+  margin-bottom: rem-calc(30);
+  line-height: rem-calc(40);
+  span {
+    font-family: helvetica;
+    font-size: rem-calc(25);
+    color: $te_awe-red;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 // block quote
