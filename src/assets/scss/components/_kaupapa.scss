@@ -1,6 +1,5 @@
 // section blurb
 .kaupapa {
-  padding: rem-calc(30) 0;
   margin-top: rem-calc(-78);
   h1 {
     text-align: center;
@@ -12,14 +11,11 @@
 
   p {
     font-size: rem-calc(18);
-    // font-weight: bold;
     text-align: center;
   }
   .kaupapa-heading {
-    // background: darken($te_awe_red, 20%);
     background: rgba(125,29,27, 0.8);
     color: $white;
-    // border-radius: rem-calc(3) rem-calc(3) 0 0;
   }
   .kaupapa-into {
     margin-top: rem-calc(30);
@@ -29,22 +25,26 @@
   }
   .first-box {
     background: darken($te_awe_red, 10%);
-    // background: $te_awe_red;
-    padding: rem-calc(20);
-    // border-radius: 0 0 0 rem-calc(3);
+    padding: rem-calc(20) rem-calc(20) 0 rem-calc(20);
     color: $white;
   }
   .second-box {
     background: darken($te_awe_red, 10%);
-    // background: $te_awe_red;
-    padding: rem-calc(20);
+    padding: rem-calc(20) rem-calc(20) 0 rem-calc(20);
     color: $white;
   }
   .third-box {
     background: darken($te_awe_red, 10%);
-    // background: $te_awe_red;
-    padding: rem-calc(20);
-    // border-radius: 0 0 rem-calc(3) 0;
+    padding: rem-calc(20) rem-calc(20) 0 rem-calc(20);
     color: $white;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .kaupapa {
+    padding: rem-calc(30) 0;
+    .first-box, .second-box, .third-box {
+      padding: rem-calc(20);
+    }
   }
 }
