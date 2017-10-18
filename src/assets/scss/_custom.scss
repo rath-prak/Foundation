@@ -56,6 +56,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+// Margin for all body content
+.content-wrapper {
+margin: rem-calc(0) 0 rem-calc(40) 0;
+}
+
+@media screen and (min-width: 40em) {
+  .content-wrapper {
+  margin: rem-calc(40) 0 rem-calc(60) 0;
+  }
+}
+
 // general typography
 .post-date {
   color: $dark-gray;
@@ -78,7 +89,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: rem-calc(10);
 }
 
-// Horizontal rulers
 .horizontal-ruler-thin {
   background: #000;
   margin-top: rem-calc(15);
@@ -130,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .registration-btn {
   background: $te-awe-red;
-  // width: rem-calc(180);
   padding: rem-calc(15) rem-calc(30);
   border-radius: rem-calc(2);
   font-weight: bold;

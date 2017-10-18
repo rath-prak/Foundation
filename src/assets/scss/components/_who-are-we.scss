@@ -1,12 +1,9 @@
 .who-are-we {
-  margin: rem-calc(40) 0 rem-calc(60) 0;
   p {
     font-size: rem-calc(18);
   }
 }
-
 .management-committee {
-  // margin: rem-calc(30) 0 rem-calc(60) 0;
   .committee-member-item {
     span {
       margin-right: rem-calc(15);
@@ -28,18 +25,16 @@
 }
 
 .interesting-links {
-
-    li {
-      background: $light-gray;
-      // margin-bottom: rem-calc(2);
-      border-bottom: rem-calc(2) solid $white;
-      text-align: center;
-      padding: rem-calc(10);
+  li {
+    background: $light-gray;
+    border-bottom: rem-calc(2) solid $white;
+    text-align: center;
+    padding: rem-calc(10);
+  }
+  li:hover {
+    background: $dark-gray;
+    a {
+      color: $white;
     }
-    li:hover {
-      background: $dark-gray;
-      a {
-        color: $white;
-      }
-    }
+  }
 }

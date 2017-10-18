@@ -1,22 +1,11 @@
-.contact-background {
-  height: rem-calc(250);
-  // background: $te_awe_red;
-  position: absolute;
-  z-index: -1;
-  // min-height: 600px;
-  background: url('../../assets/img/Te-Awe-splash-background.jpg') no-repeat center center;
-  background-size: cover;
+.contact {
+  min-height: 80vh;
+  h2 {
+    margin-top: rem-calc(40);
+  }
 }
-
-.contact-form {
-  margin: rem-calc(80) 0;
-  padding: rem-calc(50);
-  background: $light-gray;
-  border-radius: rem-calc(4);
-}
-
-.contact-us-form-actions {
+.contact-us-form {
   input {
-    width: rem-calc(120);
+    border-radius: $border-radius;
   }
 }

@@ -1,6 +1,4 @@
 .membership-information {
-  margin: rem-calc(40) 0 rem-calc(60) 0;
-  min-height: 100vh;
   p, li {
     font-size: rem-calc(18);
   }
@@ -26,7 +24,6 @@
     }
     .partnership {
       background: darken($te_awe_red, 10%);
-
     }
     .corporate {
       background: $te_awe_red;
