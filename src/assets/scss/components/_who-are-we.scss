@@ -3,6 +3,11 @@
     font-size: rem-calc(18);
   }
 }
+
+.who-are-we-body {
+  margin-bottom: rem-calc(10) !important;
+}
+
 .management-committee {
   .committee-member-item {
     span {
@@ -21,7 +26,7 @@
 }
 
 .committee-member-header {
-  margin: rem-calc(30) 0;
+  margin-bottom: rem-calc(30);
 }
 
 .interesting-links {
@@ -36,5 +41,21 @@
     a {
       color: $white;
     }
+  }
+}
+
+.application-form {
+  margin-bottom: rem-calc(30);
+}
+
+.committee-member-item {
+  img {
+    margin-bottom: rem-calc(20);
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .who-are-we-body {
+    margin-bottom: rem-calc(40) !important;
   }
 }

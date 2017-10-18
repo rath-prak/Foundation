@@ -151,24 +151,46 @@ margin: rem-calc(0) 0 rem-calc(40) 0;
 }
 
 //typography
+//----------
 .main-heading {
-  margin-bottom: rem-calc(30);
-  line-height: rem-calc(40);
+  margin: rem-calc(20) 0 rem-calc(20) 0;
+  line-height: 2rem;
+  font-size: rem-calc(30);
+
   span {
     font-family: helvetica;
-    font-size: rem-calc(25);
+    font-size: rem-calc(16);
     color: $te_awe-red;
     text-transform: uppercase;
     font-weight: bold;
   }
 }
 
+@media screen and (min-width: 40em) {
+  .main-heading {
+    font-size: rem-calc(50);
+    margin-bottom: rem-calc(30);
+    line-height: 2.4rem;
+    span {
+      font-size: rem-calc(25);
+      line-height: rem-calc(40);
+    }
+  }
+}
+
 // block quote
 .block-quote {
-  font-size: rem-calc(24)!important;
+  font-size: rem-calc(18)!important;
   font-weight: bold;
   font-style: italic;
-  line-height: 2.1rem;
+  line-height: 1.8rem;
   padding-left: rem-calc(20);
   border-left: 4px solid $te_awe-red;
+}
+
+@media screen and (min-width: 40em) {
+  .block-quote {
+    line-height: 2.1rem;
+    font-size: rem-calc(24)!important;
+  }
 }
