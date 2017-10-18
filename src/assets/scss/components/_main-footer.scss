@@ -10,8 +10,7 @@
   li {
     color: $white;
     font-weight: bold;
-    margin-bottom: rem-calc(10);
-    margin-bottom: rem-calc(3);
+    // margin-bottom: rem-calc(5);
   }
   li:hover {
     a {
@@ -39,7 +38,7 @@
     }
   }
 
-  .footer-copy-right {
+  .footer-copyright {
     font-size: rem-calc(14);
   }
   .contact-us {
@@ -54,5 +53,13 @@
     margin: rem-calc(10) 0 rem-calc(10) 0;
     height: 2px;
   }
+}
 
+@media screen and (min-width: 40em) {
+  .connect-contact {
+    margin-top: rem-calc(90);
+  }
+  .footer-copyright {
+    margin-top: rem-calc(40);
+  }
 }

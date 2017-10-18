@@ -10,7 +10,7 @@
   }
   tbody {
     td {
-      padding: rem-calc(5);
+      padding: rem-calc(2);
       text-align: center;
     }
     td:hover {
@@ -19,12 +19,25 @@
       color: $white;
       cursor: pointer;
     }
+    td:first-of-type:hover {
+      background: $white;
+    }
+    td:last-of-type:hover {
+      background: $white;
+    }
   }
   .day {
-    color:$te_awe_red;
+    color: $te_awe_red;
+    font-weight: bold;
   }
   .day:hover {
     color: $white;
+  }
+  .notice {
+    background: $light-gray;
+  }
+  .notice:hover {
+    background: $te_awe_red !important;
   }
 
 }
