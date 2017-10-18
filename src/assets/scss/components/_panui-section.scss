@@ -1,0 +1,27 @@
+.subscribe-section {
+  padding: rem-calc(10) 0px;
+  background: $te-awe-red;
+  h3, p {
+    color: $white;
+  }
+  h3 {
+    margin-bottom: rem-calc(0);
+  }
+  p {
+    font-size: rem-calc(14);
+  }
+  .subscribe-form {
+    input {
+      border: none;
+      border-radius: $border-radius;
+    }
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .subscribe-section {
+    p {
+      font-size: rem-calc(18);
+    }
+  }
+}

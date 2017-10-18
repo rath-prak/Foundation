@@ -26,6 +26,23 @@
       a:hover {
         color: $te_awe-red;
       }
+      button {
+        margin-left: rem-calc(10);
+      }
+      input {
+        border-radius: $border-radius;
+      }
+      .search-btn  {
+        background: $te-awe-red;
+        border-radius: $border-radius;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: rem-calc(120);
+      }
+
+      .search-btn:hover {
+        background: darken($te-awe-red, 10%);
+      }
     }
   }
 }
