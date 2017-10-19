@@ -47,6 +47,11 @@
 @import './components/calendar';
 
 
+//make all page have top margin to account for navigations
+.super-content-wrapper {
+  margin-top: rem-calc(160);
+}
+
 // Custom Typography
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
