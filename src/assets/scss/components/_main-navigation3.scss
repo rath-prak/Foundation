@@ -18,13 +18,11 @@
     background: $white;
 
     .top-nav-left {
-      // background: red;
       img {
         padding: rem-calc(20);
       }
     }
     .top-nav-right {
-      // background: green;
       display: flex;
       align-items: center;
 
@@ -34,6 +32,7 @@
       .top-nav-items {
         display: flex;
         align-items: center;
+        margin-right: rem-calc(-10);
         span {
           margin-right: rem-calc(30);
         }
@@ -75,7 +74,7 @@
       display: inline-block;
       color: $white;
       text-align: center;
-      padding: 18px 10px;
+      padding: 10px 10px;
       text-decoration: none;
     }
 
@@ -113,9 +112,18 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
+      padding-left: 15%;
       overflow: hidden;
-      height: rem-calc(60);
+      transform: translateX(-10%);
+      margin-top: rem-calc(-12);
+      width: 120%;
       background: $te_awe_red;
+      li {
+        font-size: rem-calc(20);
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     }
 
 
@@ -141,6 +149,7 @@
     margin-bottom: 3px;
     position: relative;
     transitions: all ease-in-out 0.4s;
+    transform: translateY(rem-calc(-5));
   }
 
 
@@ -166,7 +175,7 @@
 
   /* media queries for responsiveness */
 
-  @media only screen and (max-width: rem-calc(740)) {
+  @media only screen and (max-width: rem-calc(780)) {
     /* displays the burger nav   */
     #burger-container {
       display: block;
@@ -196,6 +205,18 @@
   .main-navigation {
     nav ul {
       background: none;
+      margin-top: rem-calc(5);
+      li {
+        font-size: rem-calc(18);
+        height: rem-calc(55);
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      .menu-item-under:hover {
+        padding-bottom: 16px;
+        border-bottom: 3px solid $white;
+      }
     }
     .bottom-navigation-bar {
       .maori-pattern-banner {
