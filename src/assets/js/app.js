@@ -10,8 +10,17 @@ import Foundation from 'foundation-sites';
 
 $(document).ready(function() {
   //toggle navigation
-  $(".toggle").on("click", function() {
-    $(".toggle").parent().toggleClass('active');
+  // $(".toggle").on("click", function() {
+  //   $(".toggle").parent().toggleClass('active');
+  // });
+//   $(".toggle").on("click", function(){
+//   $(".chatbot-list-items").toggleClass("active");
+// });
+
+$("#burger-container").on("click", function() {
+  $("#burger-container").toggleClass("open"),
+    $("nav ul").toggleClass("show"),
+    $(".content").toggleClass("move"); //onclick 'this' -> burger-container toggles with a class of 'open'
   });
 
 });

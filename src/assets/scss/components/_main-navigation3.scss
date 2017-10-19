@@ -1,0 +1,289 @@
+/* main styling */
+
+.main-navigation {
+
+  background: $te_awe_red;
+  top: 0;
+  position: fixed;
+  height: rem-calc(60);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+
+
+
+
+
+}
+
+.bottom-navigation-bar {
+  background: $te_awe_red;
+  width: 100%;
+  height: rem-calc(60);
+  z-index: -2;
+  .maori-pattern-banner {
+    position: relative;
+    z-index: 100;
+    img {
+      height: rem-calc(60);
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+    }
+  }
+}
+
+.main-menu {
+  float: right;
+}
+
+.show-menu {
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+/* navigation */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: $te_awe_red;
+  height: rem-calc(60);
+}
+
+.top-nav-items {
+  background: none;
+}
+
+li {
+  float: left;
+  font-weight: bold;
+
+}
+
+li a,
+.dropdown-btn {
+  display: inline-block;
+  color: $white;
+  text-align: center;
+  padding: 18px 10px;
+  text-decoration: none;
+}
+
+// li a:hover,
+// .dropdown:hover .dropdown-btn {
+//   background-color: #fefefe;
+//   color: #218380;
+// }
+
+li a:hover {
+  // background-color: #fefefe;
+  color: $white;
+}
+
+
+li.dropdown {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  width: 100%;
+  position: absolute;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  padding: 18px 22px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+// .dropdown-menu a:hover {
+//   background-color: $white;
+//   color: $white;
+// }
+
+
+/* menu will only display on hover */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+/*  burger navigation icon with cross effects*/
+
+#burger-container {
+  position: relative;
+  display: none;
+  margin-top: 10px;
+  float: right;
+}
+
+#burger {
+  cursor: pointer;
+  display: block;
+}
+
+#burger span {
+  background: #fff;
+  display: block;
+  height: 5px;
+  width: 50px;
+  margin-bottom: 3px;
+  position: relative;
+  transitions: all ease-in-out 0.4s;
+}
+
+
+/* open class - toggle using jquery*/
+
+#burger-container.open span:nth-child(2),
+#burger-container.open span:nth-child(3) {
+  width: 0;
+  /* collapse 2nd and 3rd span*/
+  opacity: 0;
+}
+
+
+/*makes the 1st and 4th span cross over each other*/
+
+#burger-container.open span:nth-child(4) {
+  transform: rotate(45deg);
+  top: -10px;
+}
+
+#burger-container.open span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 15px;
+}
+
+
+/* media queries for responsiveness */
+
+@media only screen and (max-width: 640px) {
+  /* displays the burger nav   */
+  #burger-container {
+    display: block;
+    margin: 20px;
+  }
+  /* open and close toggle  */
+  nav ul {
+    height: 0;
+  }
+  .show {
+    height: 18em;
+  }
+  /*  moves the content down the screen to give way to the nav  */
+  .move {
+    position: relative;
+    top: 22em;
+  }
+  /*  nav items  */
+  nav ul,
+  nav:active ul {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .dropdown-menu {
+    display: block;
+  }
+  /* hides the 'More' link and instead shows all the hidden link   */
+  .more {
+    display: none;
+  }
+  /* hover styling   */
+  li a:hover,
+  .dropdown:hover {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: rem-calc(840)) {
+
+  .main-navigation {
+    .maori-pattern-banner {
+      img {
+        display: initial;
+      }
+    }
+  }
+}
+
+.main-navigation {
+  //top navigation
+  .top-navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    height: rem-calc(108);
+    width: 100%;
+    background: $white;
+
+
+
+    .top-nav-left {
+      // background: red;
+      img {
+        padding: rem-calc(20);
+      }
+    }
+    .top-nav-right {
+      // background: green;
+      display: flex;
+      align-items: center;
+
+      input, button, ul {
+        margin-bottom: 0;
+      }
+      .top-nav-items {
+        display: flex;
+        align-items: center;
+        span {
+          margin-right: rem-calc(30);
+        }
+        a:hover {
+          color: $te_awe-red;
+        }
+        button {
+          margin-left: rem-calc(10);
+        }
+        input {
+          border-radius: $border-radius;
+        }
+        .search-btn  {
+          background: $te-awe-red;
+          border-radius: $border-radius;
+          font-weight: bold;
+          text-transform: uppercase;
+          width: rem-calc(120);
+        }
+
+        .search-btn:hover {
+          background: darken($te-awe-red, 10%);
+        }
+      }
+    }
+  }
+}
